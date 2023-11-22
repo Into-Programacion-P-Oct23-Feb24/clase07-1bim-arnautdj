@@ -26,6 +26,11 @@ public class Ejemplo03 {
         int suma = 0;
         int valor_ingresado;
         
+        /*
+        Es un programa que permite ingresar 5 valores los cuales va presentando
+        en pantalla, para al final presentar la sumatoria total de los valores.
+        */
+        
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
